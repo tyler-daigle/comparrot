@@ -1,0 +1,11 @@
+.imageContainer {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  border: solid 1px red;
+}
+
+.image {
+  height: 100%;
+  width: auto;
+}
