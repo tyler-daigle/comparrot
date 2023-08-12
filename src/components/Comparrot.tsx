@@ -7,9 +7,11 @@ import { useState } from "react";
 interface Props {
   leftImage: string;
   rightImage: string;
+  width: number;
+  height: number;
 };
 
-export default function Comparrot({ leftImage, rightImage }: Props) {
+export default function Comparrot({ leftImage, rightImage, width, height }: Props) {
   const [leftWidth, setLeftWidth] = useState(50);
   const [rightWidth, setRightWidth] = useState(50);
 
@@ -24,7 +26,7 @@ export default function Comparrot({ leftImage, rightImage }: Props) {
   return (
     <div>
 
-      <ComparrotContainer width={800} height={400}>
+      <ComparrotContainer width={width} height={height}>
         <ComparrotImage width={leftWidth} position={0} src={leftImage} alt="Left side of the comparison" />
         <ComparrotImage width={rightWidth} position={1} src={rightImage} alt="Right side of the comparison" />
         <input className={styles.slider} type="range" min="0" max="100" value={leftWidth} onInput={(e) => adjustLeft(e.target.value)} />

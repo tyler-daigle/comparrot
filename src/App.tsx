@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <h1>Quality Comparerererer</h1>
-      <Comparrot leftImage="http://placekitten.com/800/400" rightImage="https://placedog.net/800/400" />
+      <Comparrot height={400} width={800} leftImage="http://placekitten.com/800/400" rightImage="https://placedog.net/800/400" />
     </div>
   )
 }
