@@ -1,0 +1,26 @@
+.slider {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  appearance: none;
+  background-color: transparent;
+  margin: 0;
+}
+
+.slider:focus {
+  border: none;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 1000px;
+  width: 10px;
+  background: black;
+}
+
+.custom-slider::-moz-range-thumb {
+  appearance: none;
+  height: 1000px;
+  width: 10px;
+  background: black;
+}

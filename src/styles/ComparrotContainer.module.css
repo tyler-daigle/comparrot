@@ -1,5 +1,5 @@
 .comparrotContainer {
   overflow: hidden;
   display: flex;
-  border: solid 1px red;
+  position: relative;
 }
