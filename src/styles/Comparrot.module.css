@@ -12,6 +12,7 @@
 }
 
 .slider::-webkit-slider-thumb {
+  cursor: ew-resize;
   appearance: none;
   height: 1000px;
   width: 10px;
@@ -19,6 +20,7 @@
 }
 
 .custom-slider::-moz-range-thumb {
+  cursor: ew-resize;
   appearance: none;
   height: 1000px;
   width: 10px;

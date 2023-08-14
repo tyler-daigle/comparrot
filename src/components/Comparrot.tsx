@@ -25,7 +25,6 @@ export default function Comparrot({ leftImage, rightImage, width, height }: Prop
 
   return (
     <div>
-
       <ComparrotContainer width={width} height={height}>
         <ComparrotImage width={leftWidth} position={0} src={leftImage} alt="Left side of the comparison" />
         <ComparrotImage width={rightWidth} position={1} src={rightImage} alt="Right side of the comparison" />
